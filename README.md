@@ -1,67 +1,85 @@
-# Getting Started with Create React App
+# Webd-AcademicArchive-FrontEnd
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Project Overview
+**Webd-AcademicArchive-FrontEnd** is a platform designed to help students share academic resources like notes, previous year question papers, and other useful documents with fellow students. The main functionality includes:
 
+- **Student Login via LDAP Credentials**: Students can log in securely using their college LDAP credentials, ensuring that only authenticated users can access the platform.
+  
+- **File Upload System**: Once logged in, students can upload any academic file they believe may be helpful for other users. However, before the file appears in the public database, an admin must review and approve the content.
+
+- **Admin Approval**: Uploaded files are sent for admin approval. The admin has the ability to either approve or disapprove the file. Only after approval will the file become available to all users.
+
+- **Public Access to Approved Files**: Once the file is approved, it will be visible in the user’s database and accessible to all students, ensuring that only verified content is shared across the platform.
+
+This platform is designed with simplicity in mind and provides an efficient way for students to collaborate and share useful resources.
+
+---
+
+## Available Scripts
 In the project directory, you can run:
 
 ### `npm start`
-
-Runs the app in the development mode.\
+Runs the app in development mode.  
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The page will reload if you make edits. You will also see any lint errors in the console.
 
 ### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in the interactive watch mode.
 
 ### `npm run build`
-
-Builds the app for production to the `build` folder.\
+Builds the app for production to the `build` folder.  
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
+The build is minified and the filenames include the hashes.  
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
 ### `npm run eject`
+**Note: this is a one-way operation. Once you eject, you can’t go back!**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+If you aren’t satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project and give you full control over the configurations.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## How to Run the Project
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 1. Clone the Repository
+To get a copy of the project on your local machine, clone the repository using Git:
 
-## Learn More
+```bash
+git clone https://github.com/cherrychhallani/Webd-AcademicArchive-FrontEnd.git
+cd Webd-AcademicArchive-FrontEnd
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 2. Install Dependencies
+Make sure you have Node.js installed on your system. Then, install the necessary dependencies by running:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm install
+```
 
-### Code Splitting
+### 3. Run the Project Locally
+To run the app in development mode, execute:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm start
+```
 
-### Analyzing the Bundle Size
+This will open the project in your browser at [http://localhost:3000](http://localhost:3000).  
+The app will automatically reload if you make any edits to the code.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 4. Build the Project for Production
+To create an optimized production build, run:
 
-### Making a Progressive Web App
+```bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+The build files will be generated in the `build` folder. You can then deploy these files to any static site hosting platform.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
+---
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
