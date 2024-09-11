@@ -1,0 +1,33 @@
+.profile {
+  width: 500px; 
+  height: 400px; 
+  background-color: #effeff; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px; 
+  margin: 50px auto; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+}
+
+.profile h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+.profile p {
+  font-size: 18px;
+  color: #444;
+  margin: 15px 0;
+  font-family: 'Helvetica', sans-serif;
+}
+
+.profile .password {
+  cursor: pointer; 
+  letter-spacing: 5px; 
+  font-family: 'Courier New', monospace;
+  transition: color 0.3s;
+}
+

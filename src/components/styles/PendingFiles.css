@@ -1,0 +1,94 @@
+.pending-files-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #effeff; 
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 15px;
+  font-family: 'Arial', sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li .doc-info {
+  display: flex;
+  flex-direction: column;
+}
+
+li .buttons {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+button:first-of-type {
+  background-color: #4caf50;
+}
+
+button:first-of-type:hover {
+  background-color: #45a049;
+}
+
+button:last-of-type {
+  background-color: #f44336;
+}
+
+button:last-of-type:hover {
+  background-color: #e53935;
+}
+
+p {
+  color: #555;
+  font-size: 16px;
+}
+
+.student-id {
+  cursor: pointer;
+  color: black; 
+  display: inline-flex;
+  align-items: center;
+}
+
+.student-id i {
+  margin-left: 5px; 
+  font-size: 14px;
+  color: #333; 
+}
